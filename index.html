@@ -8,31 +8,43 @@
    
 </head>
 <body>
-  <div style="display: flex; gap: 1rem;">  <div id="book-count">Books added: 0</div>
-  <div id="total-pages">Total pages: 0</div></div>
 
-        <button id="button-form">create form</button>
-          <div id="block">
+  <div class="header-form">
+    <ul>
+      <li><button id="button-form">Create Form</button></li>
+      <li>
+        <div id="book-count">Books added: 0</div>
+        <div id="total-pages">Total pages: 0</div>
+        </li>
+    </ul>
+  </div>
+  <div id="info_block">
+  </div>
+  <div id="wrapper">
+      <div id="block">
             <div class="list">
-            <input id="title" type="text" placeholder="title" >
+          
+            <input id="title" type="text" placeholder="TITLE" >
             <input id="author" type="text"
-            placeholder="author" >
+            placeholder="AUTHOR" >
             <input id="pages" type="number"
-            placeholder="pages" >
+            placeholder="PAGES" >
             <div>
                 <input id="isRead" type="checkbox"
             placeholder="READ?" >Read?
             </div>
             <div id="error-message" style="color: red; display: none;">Please fill in all fields
-              <p>#Пожалуйста, заполните все поля
-              </p>
+              
             </div>
             <button id="submit-btn" >sumbit</button>
             <button id="hide-btn">hide</button>
-        </div>
-          </div>  
-          <div id="info_block">
-          </div>
+            <img src="
+            https://logowik.com/content/uploads/images/marvel-studios1606.jpg" alt="" width="250px" style="margin: 0 auto;">
+      </div>
+      </div>  
+    
+  </div>    
+
 
     <script src="script.js"> </script>
 </body>

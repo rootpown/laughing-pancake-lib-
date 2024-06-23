@@ -31,7 +31,7 @@ function blurBody() {
     allElements.forEach(element => {
         // Проверяем, что элемент не является libraryBlock и не является его прямым потомком
         if (element !== wrapper && !isDescendant(wrapper, element)) {
-            element.style.filter = 'blur(4px)';
+            element.style.filter = 'blur(2px)';
         }
     });
 }
@@ -100,10 +100,10 @@ function myLibrary() {
             totalPagesElement.innerText = `Total pages: ${totalPages}`;
 
             const bookDiv = document.createElement('div');
-            bookDiv.innerHTML = `<div>${library.title}</div>
-                                 <div>${library.author}</div>
-                                 <div>${library.pages}</div>
-                                 <div>${library.isRead ? 'Yes' : 'No'}</div>`;
+            bookDiv.innerHTML = `<div>TITLE: ${library.title}</div>
+                                 <div>AUTHOR: ${library.author}</div>
+                                 <div>PAGES: ${library.pages}</div>
+                                 <div>READ: ${library.isRead ? 'Yes' : 'No'}</div>`;
             infoBlock.appendChild(bookDiv);
 
             titleInput.value = '';
