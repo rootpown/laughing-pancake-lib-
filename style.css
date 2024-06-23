@@ -11,6 +11,9 @@ ul, li {
 
 #block { 
     display: none;
+    position: absolute;
+    top: 151px;
+
   
    
 }
