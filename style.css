@@ -123,6 +123,7 @@ ul, li {
     display: flex;
     gap: 1rem;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 #info_block > div { 
    
