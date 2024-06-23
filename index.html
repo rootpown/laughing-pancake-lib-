@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+  <div style="display: flex; gap: 1rem;">  <div id="book-count">Books added: 0</div>
+  <div id="total-pages">Total pages: 0</div></div>
+
+        <button id="button-form">create form</button>
+          <div id="block">
+            <div class="list">
+            <input id="title" type="text" placeholder="title" >
+            <input id="author" type="text"
+            placeholder="author" >
+            <input id="pages" type="number"
+            placeholder="pages" >
+            <div>
+                <input id="isRead" type="checkbox"
+            placeholder="READ?" >Read?
+            </div>
+            <div id="error-message" style="color: red; display: none;">Please fill in all fields
+              <p>#Пожалуйста, заполните все поля
+              </p>
+            </div>
+            <button id="submit-btn" >sumbit</button>
+            <button id="hide-btn">hide</button>
+        </div>
+          </div>  
+          <div id="info_block">
+          </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>

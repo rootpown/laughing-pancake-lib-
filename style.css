@@ -1,0 +1,28 @@
+#block { 
+    display: none;
+    width: 320px;
+    height: 100px;
+   
+}
+
+.list { 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid black;
+
+    
+}
+
+.list > div { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.list > div > input { 
+   padding: 1rem;
+
+}
