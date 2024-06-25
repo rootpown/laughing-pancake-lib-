@@ -10,7 +10,7 @@
  ## Installation
 ```md
 1. Clone the repository:
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/rootpown/laughing-pancake-lib-
 
 2. Open the index.html file in your browser to view the application. (live)
 ```
