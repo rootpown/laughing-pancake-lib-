@@ -20,7 +20,6 @@ function libraryForm() {
         clearBlur();
     });
 }
-
 /**
  * Функция для применения размытия ко всем блокам кроме libraryBlock 
  */
@@ -34,7 +33,6 @@ function blurBody() {
         }
     });
 }
-
 /**
  * Функция для проверки, является ли элемент потомком другого элемента
  */
@@ -48,7 +46,6 @@ function isDescendant(parent, child) {
     }
     return false;
 }
-
 /**
  * Функция для очистки размытия у всех элементов
  */
@@ -58,7 +55,6 @@ function clearBlur() {
         element.style.filter = '';
     });
 }
-
 /**
  * Функция для добавления книги в библиотеку
  */
@@ -73,7 +69,6 @@ function myLibrary() {
     const totalPagesElement = document.getElementById('total-pages');
     const errorMessage = document.getElementById('error-message');
     const infoBlock = document.getElementById('info_block');
-
     // Слушатель события на кнопке добавления книги
     submitForm.addEventListener('click', () => {
         const title = titleInput.value.trim();
@@ -115,7 +110,6 @@ function myLibrary() {
         }
     });
 }
-
 // Слушатель события на загрузку документа для инициализации функций
 document.addEventListener('DOMContentLoaded', () => {
     libraryForm();
