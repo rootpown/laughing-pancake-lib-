@@ -26,7 +26,6 @@ function libraryForm() {
  */
 function blurBody() {
     const allElements = document.body.querySelectorAll('*');
-    const libraryBlock = document.getElementById("block");
     const wrapper = document.getElementById('wrapper')
     allElements.forEach(element => {
         // Проверяем, что элемент не является libraryBlock и не является его прямым потомком

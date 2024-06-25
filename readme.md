@@ -14,7 +14,8 @@ git clone https://github.com/yourusername/library-management-system.git
 
 2. Open the index.html file in your browser to view the application. (live)
 ```
-
+## live
+- {https://rootpown.github.io/laughing-pancake-lib-/}
 ## Usage
 - Click the "Add Book" button to open the book entry form.
 - Fill in the book details: title, author, number of pages, and mark if the book is read.
